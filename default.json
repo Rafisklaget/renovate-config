@@ -25,6 +25,22 @@
       "matchUpdateTypes": ["pinDigest"],
       "automerge": true,
       "description": "Automerge immutable digest pins for actions and container images"
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
+      "description": "Automerge stable SemVer patch updates"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "npm patch dependencies"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "npm minor dependencies"
     }
   ]
 }
