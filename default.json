@@ -8,6 +8,7 @@
     "helpers:pinGitHubActionDigests"
   ],
   "timezone": "Europe/Oslo",
+  "prCreation": "not-pending",
   "minimumReleaseAge": "96 hours",
   "osvVulnerabilityAlerts": true,
   "docker": {
